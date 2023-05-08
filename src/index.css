@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* flip card */
+
+.flip-container {
+  perspective: 1000px;
+}
+
+/* .flipper {
+  @apply relative h-96 w-96 transform-style[preserve-3d] transition[transform 0.5s];
+}
+
+.front,
+.back {
+  @apply absolute h-full w-full backface-visibility[hidden];
+}
+
+.back {
+  @apply transform[rotateY(180deg)] bg-gray-200 text-black;
+} */
+
+
+/* ------------- optimizar ----------------- */
+.heroFont {
+    background: #00bf8f;
+    background: -webkit-linear-gradient(to right, #c3e4ff, #eae2ff, #b9beff,  #6ec3f4);
+    background: linear-gradient(to right, #c3e4ff, #eae2ff, #b9beff,  #6ec3f4);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation  {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+/* ------optimizaer ------------ */
+
+.iconStyle{
+  background: #00bf8f;
+  background: -webkit-linear-gradient(to right, #c3e4ff, #eae2ff, #b9beff,  #6ec3f4);
+  background: linear-gradient(to right, #c3e4ff, #eae2ff, #b9beff,  #6ec3f4);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+    color: white;
+}
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+.vertical-timeline::before {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+}
+.date {
+  color: gray;
+}
+#description {
+  margin: 1.5em 0 2em 0;
+}
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
+
+
+
+
+/* test */
+
+.cardback {
+  transform: rotateY(180deg);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: aqua;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  border: solid 5px white;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.cardfront {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 15px;
+}
