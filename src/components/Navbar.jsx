@@ -11,7 +11,7 @@ export const Navbar = () => {
                 <h2 className='mt-3'>My Portfolio</h2>
             </div>
             <div className="flex gap-8 text-white text-[1.3rem] font-mono">
-                <p>Inicio</p>
+                <p>Inicio00000</p>
                 <p>Sobre mi</p>
                 <p>Proyectos</p>
                 <p>Experiencia</p>
