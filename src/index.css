@@ -4,54 +4,18 @@
 
 
 /* flip card */
-
+::-webkit-scrollbar {
+  display: none;
+}
 .flip-container {
   perspective: 1000px;
 }
 
-/* .flipper {
-  @apply relative h-96 w-96 transform-style[preserve-3d] transition[transform 0.5s];
-}
-
-.front,
-.back {
-  @apply absolute h-full w-full backface-visibility[hidden];
-}
-
-.back {
-  @apply transform[rotateY(180deg)] bg-gray-200 text-black;
-} */
-
-
-/* ------------- optimizar ----------------- */
-.heroFont {
-    background: #00bf8f;
-    background: -webkit-linear-gradient(to right, #c3e4ff, #eae2ff, #b9beff,  #6ec3f4);
-    background: linear-gradient(to right, #c3e4ff, #eae2ff, #b9beff,  #6ec3f4);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-}
-@keyframes gradient-animation  {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
-/* ------optimizaer ------------ */
-
 .iconStyle{
-  background: #00bf8f;
-  background: -webkit-linear-gradient(to right, #c3e4ff, #eae2ff, #b9beff,  #6ec3f4);
-  background: linear-gradient(to right, #c3e4ff, #eae2ff, #b9beff,  #6ec3f4);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-    color: white;
+  background-image: url(./assets/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 .vertical-timeline-element-content {
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
@@ -83,6 +47,9 @@
 /* test */
 
 .cardback {
+  background-image: url(./assets//fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   transform: rotateY(180deg);
   z-index: 1;
   width: 100%;
@@ -97,7 +64,9 @@
   box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
+  gap: 13px;
 }
+
 
 .cardfront {
   z-index: 2;
@@ -108,4 +77,42 @@
   left: 0;
   backface-visibility: hidden;
   border-radius: 15px;
+}
+
+
+
+.borderText {
+  color: transparent;
+  -webkit-text-stroke: 3px white;
+}
+
+.waves {
+  position: absolute;
+  animation: waves 3s ease-in-out infinite;
+}
+
+@keyframes waves {
+  0%, 100% {
+    clip-path: polygon(
+      0% 47%,
+      10% 48%,
+      33% 54%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+}
+
+}
+.TextAnimate {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden; /* asegura que el contenido no salga del padre */
 }

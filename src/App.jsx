@@ -3,7 +3,7 @@ import { About, Contact, Education, Hero, Navbar, Portfolio, Tech} from "./compo
 function App() {
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Hero/>
       <About/>
       <Education/>

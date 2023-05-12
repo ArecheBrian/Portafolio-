@@ -7,8 +7,8 @@ import { FaGraduationCap } from "react-icons/fa";
 export const Education = ()=> {
     return (
         <div className="py-[3.5rem]">
-                <h1 className="text-center">Timeline</h1>
-                <p className="text-center mb-20">
+                <h1 className="text-center text-[4rem] text-slate-600 font-mono">Timeline</h1>
+                <p className="text-center mb-20 text-slate-600 text-[1.3rem] font-mono">
                     Note that the development build is not optimized.
                     To create a production build
                 </p>

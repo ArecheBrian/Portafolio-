@@ -12,6 +12,13 @@ import bootstrap from "./tech/Bootstrap.png";
 import backend from "./back.png";
 import movil from "./movil.png";
 import web from "./web.png"
+import fondo from "./fondo.png"
+import ptfNft from "./portafolio/NFT.png"
+import ptfBus from "./portafolio/BusTApp.png"
+import ptfCoop from "./portafolio/cooperativa.jpg"
+import ptfFood from "./portafolio/cookpedia.png"
+import ptfPokemon from "./portafolio/poke.jpg"
+import ptfPortafolio from "./portafolio/portafolio.png"
 
 export const Images = {
     wave,
@@ -27,5 +34,12 @@ export const Images = {
     bootstrap,
     backend,
     movil,
-    web
+    web,
+    fondo,
+    ptfNft,
+    ptfBus,
+    ptfCoop,
+    ptfFood,
+    ptfPokemon,
+    ptfPortafolio
 }

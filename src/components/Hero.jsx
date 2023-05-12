@@ -1,12 +1,36 @@
-import { Images } from "../assets"
+import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import "../index.css"
+import { styles } from "../styles"
+import SvgComponent from "../assets/svgWave";
 
 export const Hero = () => {
     return (
-        <div className="min-h-screen heroFont flex row">
-                <h1>Hi I'm Brian Javier Aereche</h1>
-                <h2>I'm Web Developer</h2>
-            <img src={Images.wave} className="w-screen absolute bottom-0"/>
+        <div className={styles.fondo}>
+            <div className=" w-11/12 xl:w-[1200px] flex flex-col gap-4 justify-center">
+                <div>
+                    <h3 className="text-white text-[1rem] sm:text-[1.5rem] font-mono">Hi my name is</h3>
+                    <div className="flex flex-wrap gap-5">
+                        <div className="TextAnimate">
+                            <h1 className="borderText text-[4rem] xl:text-[6rem]">Brian Javier</h1>
+                            <h1 className="waves text-[4rem] xl:text-[6rem] text-white">Brian Javier</h1>
+                        </div>
+                        <div className="TextAnimate">
+                            <h1 className="borderText text-[4rem] xl:text-[6rem] m-0">Areche Minaya</h1>
+                            <h1 className="waves text-[4rem] xl:text-[6rem] text-white m-0 p-0">Areche Minaya</h1>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 className="text-white text-[2rem] xl:text-[4rem] font-mono">I'm software developer</h2>
+                    <p className="text-white text-[1rem] xl:text-[1.5rem] font-mono">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique quam nec odio sodales lobortis. adipiscing elit. Nullam tristique quam nec odio sodales lobortis</p>
+                </div>
+                <div className="flex gap-4 text-[1.4rem] text-white mt-8">
+                    <BsGithub/>
+                    <BsLinkedin/>
+                    <BsWhatsapp/>
+                </div>
+            </div>
+            {/* <SvgComponent/> */}
         </div>
     )
 }
