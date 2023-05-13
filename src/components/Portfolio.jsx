@@ -16,7 +16,7 @@ export const Portfolio = () => {
 
     return (
         <div className="min-h-screen flex items-center flex-col pt-24">
-            <h1 className="sm:text-[4rem] text-[2.8rem] mx-4 text-slate-600 font-mono text-justify">My Recent Work</h1>
+            <h1 className="sm:text-[4rem] text-[2.8rem] mx-4 text-slate-600 font-mono text-center">My Recent Work</h1>
             <p className="sm:text-[1.3rem] text-[1rem] text-justify text-slate-600 font-mono mx-4">Here are a few past design projects I've worked on.</p>
             <div className="flex flex-row flex-wrap gap-6 justify-center py-20 w-full">
                 {/* primero  */}
