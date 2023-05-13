@@ -6,7 +6,7 @@ import SvgComponent from "../assets/svgWave";
 export const Hero = () => {
     return (
         <div className={styles.fondo}>
-            <div className=" w-11/12 xl:w-[1200px] flex flex-col gap-4 justify-center">
+            <div className=" w-11/12 xl:w-[1200px] flex flex-col gap-4 justify-center mt-28">
                 <div>
                     <h3 className="text-white text-[1rem] sm:text-[1.5rem] font-mono">Hi my name is</h3>
                     <div className="flex flex-wrap gap-5">

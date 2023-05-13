@@ -6,12 +6,12 @@ import { FaGraduationCap } from "react-icons/fa";
 
 export const Education = ()=> {
     return (
-        <div className="py-[3.5rem]">
-                <h1 className="text-center text-[4rem] text-slate-600 font-mono">Timeline</h1>
-                <p className="text-center mb-20 text-slate-600 text-[1.3rem] font-mono">
-                    Note that the development build is not optimized.
-                    To create a production build
-                </p>
+        <div className="pb-[3.5rem] px-4">
+            <h1 className="text-center sm:text-[4rem] text-[3rem] text-slate-600 font-mono">Timeline</h1>
+            <p className="text-center mb-20 text-slate-600 sm:text-[1.3rem] text-[1rem] font-mono">
+                Note that the development build is not optimized.
+                To create a production build
+            </p>
             <VerticalTimeline>
                 {timelineElement.map((element)=> {
                     return (

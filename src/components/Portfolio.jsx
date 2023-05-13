@@ -15,9 +15,9 @@ export const Portfolio = () => {
     const [isFlipped5, setIsFlipped5] = useState(false);
 
     return (
-        <div className="min-h-screen flex items-center flex-col py-24">
-            <h1 className="text-[4rem] text-slate-600">My Recent Work</h1>
-            <p className="text-[1.3rem] text-slate-600">Here are a few past design projects I've worked on.</p>
+        <div className="min-h-screen flex items-center flex-col pt-24">
+            <h1 className="sm:text-[4rem] text-[2.8rem] mx-4 text-slate-600 font-mono text-justify">My Recent Work</h1>
+            <p className="sm:text-[1.3rem] text-[1rem] text-justify text-slate-600 font-mono mx-4">Here are a few past design projects I've worked on.</p>
             <div className="flex flex-row flex-wrap gap-6 justify-center py-20 w-full">
                 {/* primero  */}
                 <motion.div className="sm:w-[450px] w-[88%] sm:h-[325px] h-[375px] relative rounded-[15px]"
@@ -26,11 +26,16 @@ export const Portfolio = () => {
                     style={{ perspective: "1000px" }}
                 >
                     <motion.div
-                        className="cardfront bg-red-700"
+                        className='cardfront'
+                        style={{
+                            backgroundImage: `url(${Images.ptfNft})`,
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center',
+                          }}
                         initial={{ rotateY: 0 }}
                         animate={{ rotateY: isFlipped ? -180 : 0 }}
                     >
-                        <img src={Images.ptfNft} alt="Imagen del proyecto" className="h-full w-full rounded-xl"/>
                     </motion.div>
                     <motion.div
                         className="cardback"
@@ -62,11 +67,16 @@ export const Portfolio = () => {
                     style={{ perspective: "1000px" }}
                 >
                     <motion.div
-                        className="cardfront bg-red-700"
+                        className='cardfront'
+                        style={{
+                            backgroundImage: `url(${Images.ptfCoop})`,
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center',
+                          }}
                         initial={{ rotateY: 0 }}
                         animate={{ rotateY: isFlipped1 ? -180 : 0 }}
                     >
-                       <img src={Images.ptfCoop} alt="Imagen del proyecto" className="w-full h-full rounded-xl"/>
                     </motion.div>
                     <motion.div
                         className="cardback"
@@ -98,11 +108,16 @@ export const Portfolio = () => {
                     style={{ perspective: "1000px" }}
                 >
                     <motion.div
-                        className="cardfront bg-red-700"
+                        className='cardfront'
+                        style={{
+                            backgroundImage: `url(${Images.ptfBus})`,
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center',
+                          }}
                         initial={{ rotateY: 0 }}
                         animate={{ rotateY: isFlipped2 ? -180 : 0 }}
                     >
-                       <img src={Images.ptfBus} alt="Imagen del proyecto" className="w-full h-full rounded-xl"/>
                     </motion.div>
                     <motion.div
                         className="cardback"
@@ -135,11 +150,16 @@ export const Portfolio = () => {
                     style={{ perspective: "1000px" }}
                 >
                     <motion.div
-                        className="cardfront bg-red-700"
+                        className='cardfront'
+                        style={{
+                            backgroundImage: `url(${Images.ptfPokemon})`,
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center',
+                          }}
                         initial={{ rotateY: 0 }}
                         animate={{ rotateY: isFlipped3 ? -180 : 0 }}
                     >
-                       <img src={Images.ptfFood} alt="Imagen del proyecto" className="w-full h-full rounded-xl"/>
                     </motion.div>
                     <motion.div
                         className="cardback"
@@ -172,11 +192,16 @@ export const Portfolio = () => {
                     style={{ perspective: "1000px" }}
                 >
                     <motion.div
-                        className="cardfront bg-red-700"
+                        className='cardfront'
+                        style={{
+                            backgroundImage: `url(${Images.ptfFood})`,
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center',
+                          }}
                         initial={{ rotateY: 0 }}
                         animate={{ rotateY: isFlipped4 ? -180 : 0 }}
                     >
-                        <img src={Images.ptfPokemon} alt="Imagen del proyecto" className="w-full h-full rounded-xl"/>
                     </motion.div>
                     <motion.div
                         className="cardback"
@@ -208,11 +233,16 @@ export const Portfolio = () => {
                     style={{ perspective: "1000px" }}
                 >
                     <motion.div
-                        className="cardfront bg-red-700"
+                        className='cardfront'
+                        style={{
+                            backgroundImage: `url(${Images.ptfPortafolio})`,
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center',
+                          }}
                         initial={{ rotateY: 0 }}
                         animate={{ rotateY: isFlipped5 ? -180 : 0 }}
                     >
-                       <img src={Images.ptfPortafolio} alt="Imagen del proyecto" className="w-full h-full rounded-xl"/>
                     </motion.div>
                     <motion.div
                         className="cardback"
