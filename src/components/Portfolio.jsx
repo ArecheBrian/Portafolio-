@@ -252,7 +252,7 @@ export const Portfolio = () => {
                     >
                     {/* Contenido de la parte posterior de la tarjeta */}
                         <h2 className="text-white text-[1.5rem] mt-[30px] mx-[30px]">Titulo de la App</h2>
-                        <p className="text-white text-[15px] mx-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis, purus at malesuada lobortis, neque nisl consectetur eros, nec egestas diam diam sit amet massa. Nullam blandit nisi ac tortor vulputate, nec iaculis justo convallis.</p>
+                        <p className="text-[15px] mx-[30px] text-red-600">Patricia no se baña Patricia no se baña Patricia no se baña Patricia no se baña Patricia no se baña </p>
                         <div className="mx-[30px] flex gap-4">
                             <button className="border-2 border-white bg-transparent text-white px-3 py-1 rounded-lg text-[15px]">Visitar</button>
                             <button className="border-2 border-white bg-transparent text-white px-3 py-1 rounded-lg text-[15px]">Repositorio</button>
