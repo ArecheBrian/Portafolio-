@@ -13,10 +13,12 @@
     "@react-three/drei": "^9.66.1",
     "@react-three/fiber": "^8.13.0",
     "@types/three": "^0.151.0",
+    "axios": "^1.4.0",
     "framer-motion": "^10.12.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.1",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.152.2"
   },

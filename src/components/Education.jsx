@@ -9,8 +9,7 @@ export const Education = ()=> {
         <div className="pb-[3.5rem] px-4">
             <h1 className="text-center sm:text-[4rem] text-[3rem] text-slate-600 font-mono">Timeline</h1>
             <p className="text-center mb-20 text-slate-600 sm:text-[1.3rem] text-[1rem] font-mono">
-                Note that the development build is not optimized.
-                To create a production build
+                Below you will see a timeline where some of my educational processes are represented
             </p>
             <VerticalTimeline>
                 {timelineElement.map((element)=> {
@@ -29,6 +28,7 @@ export const Education = ()=> {
                                 {element.location}
                             </h5>
                             <p id="description">{element.description}</p>
+                            <a className="text-blue-700" href={element.link}>{element.btnText}</a>
                         </VerticalTimelineElement>
                     )
                 })

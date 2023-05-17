@@ -1,8 +1,7 @@
 import { Images } from "../assets";
 
-
 export const AboutInfo = {
-    aboutMe: "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
+    aboutMe: "I'm a junior programmer specializing in application development using React and React Native. I consider myself a curious person and passionate about learning. I am always looking for opportunities to expand my knowledge and improve my application development experience. I am excited to work on challenging projects that allow me to apply and improve my skills, excited about the opportunities that await me, and eager to contribute my creativity and technical knowledge to innovative projects.",
     services: [
         {
             title: "Web Developer",
@@ -56,26 +55,29 @@ export const technology = [
 export const timelineElement = [
     {
         id: 1,
-        title: "Title Example",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        title: "ITLA",
+        description: "During my stay at ITLA, I did a higher technical degree in software development. Upon completion of the Software Development Technologist, I learned all the stages involved in the software development process, focusing on the practice of the more technical tasks.",
         location: "Santo Domingo",
-        date: "August 2016 - present",
-        btnText: "Visit Website"
+        date: "August 2020 - April 2023",
+        btnText: "Visit Website",
+        link: "https://itla.edu.do"
     },
     {
         id: 2,
-        title: "Title Example",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        location: "Santo Domingo",
-        date: "August 2016 - present",
-        btnText: "Visit Website"
+        title: "BOOTCAMP X",
+        description: "I learned to create apps including servers and databases. Fullstack Development Path includes courses on React, SQL, Node.js, Express, and your App.",
+        location: "Academia X",
+        date: "August 2021 - Dicember 2021",
+        btnText: "Visit Website",
+        link: "https://www.academia-x.com"
     },
     {
         id: 3,
-        title: "Title Example",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        location: "Santo Domingo",
-        date: "August 2016 - present",
-        btnText: "Visit Website"
+        title: "The Complete JavaScript Course",
+        description: "During my stay in this course I learned about the JavaScript programming language, learned how it works behind the scenes and can have a deeper and deeper understanding of the language.",
+        location: "Udemy",
+        date: "April 2022 - August 2022",
+        btnText: "Visit Website",
+        link: "https://www.udemy.com/course/the-complete-javascript-course/"
     }
 ]

@@ -22,7 +22,7 @@ export const Hero = () => {
                 </div>
                 <div>
                     <h2 className="text-white text-[2rem] xl:text-[4rem] font-mono">I'm software developer</h2>
-                    <p className="text-white text-[1rem] xl:text-[1.5rem] font-mono">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique quam nec odio sodales lobortis. adipiscing elit. Nullam tristique quam nec odio sodales lobortis</p>
+                    <p className="text-white text-[1rem] xl:text-[1.5rem] font-mono">Welcome to my web portfolio! I am a junior programmer specialized in web and mobile application development. My goal is to use my technical skills and my passion for programming to build engaging and functional digital experiences.</p>
                 </div>
                 <div className="flex gap-4 text-[1.4rem] text-white mt-8">
                     <BsGithub/>
