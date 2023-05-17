@@ -4,7 +4,7 @@ import { styles } from "../styles"
 
 export const About = () => {
     return (
-        <div className="min-h-[100vh] flex flex-col justify-center items-center py-24">
+        <div className="min-h-[110vh] flex flex-col justify-center items-center py-24" id="About">
             <div className="w-11/12 xl:w-[1200px] sm:px-[3rem] px-4">
                 <h3 className="mb-2 text-slate-600 sm:text-[1.5rem] text-[1rem] font-mono">Introduction</h3>
                 <h1 className="mb-8 sm:text-[4rem] text-[3rem] text-slate-600 font-mono">Overview</h1>

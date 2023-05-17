@@ -6,7 +6,7 @@ import { BallCanvas } from "./canvas/Ball"
 
 export const Tech = () => {
     return (
-        <div className={styles.tStackFont}>
+        <div className={styles.tStackFont} id="Skills">
             <h1 className="text-white sm:text-[4rem] text-[3rem] font-mono text-center">Technology Stack</h1>
             <div className="lg:w-8/12 flex flex-row flex-wrap justify-center gap-10">
                 {technology.map((item)=> (

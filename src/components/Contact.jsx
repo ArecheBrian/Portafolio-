@@ -63,7 +63,7 @@ export const Contact = () => {
               });
           };
     return (
-        <div className="min-h-screen flex items-center justify-center pb-10 flex-col gap-y-16">
+        <div className="min-h-screen flex items-center justify-center pb-10 flex-col gap-y-16" id="Contact">
             <h1 className="text-center sm:text-[4rem] text-[3rem] text-slate-600 font-mono">Contact me</h1>
             <div className=" min-h-[70vh] w-11/12 xl:w-[1200px] rounded-xl bg-white lg:flex shadow-2xl">
                 <div className="lg:w-7/12 w-full min-h-[50vh] flex flex-col p-14 gap-8 justify-center">

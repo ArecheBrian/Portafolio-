@@ -6,7 +6,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 export const Education = ()=> {
     return (
-        <div className="pb-[3.5rem] px-4">
+        <div className="pb-[3.5rem] px-4" id="Education">
             <h1 className="text-center sm:text-[4rem] text-[3rem] text-slate-600 font-mono">Timeline</h1>
             <p className="text-center mb-20 text-slate-600 sm:text-[1.3rem] text-[1rem] font-mono">
                 Below you will see a timeline where some of my educational processes are represented
